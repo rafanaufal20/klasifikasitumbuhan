@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klasifikasi Tumbuhan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Klasifikasi Tumbuhan</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Daun</a></li>
+                    <li><a href="#">Batang</a></li>
+                    <li><a href="#">Akar</a></li>
+                </ul>
+            </nav>
+            <div class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section daun">
+            <img src="daun.jpeg" alt="Daun">
+            <div class="content">
+                <h2>Daun</h2>
+                <p>Daun adalah organ vegetatif pada tumbuhan yang biasanya berbentuk datar dan melekat pada batang atau ranting. Fungsinya meliputi fotosintesis, pengaturan penguapan air melalui stomata, dan penyimpanan cadangan makanan dalam bentuk amilum. Struktur daun terdiri dari epidermis, mesofil, dan pembuluh daun.</p>
+            </div>
+        </section>
+
+        <div class="flex-container">
+            <section class="section batang">
+                <img src="batang.jpeg" alt="Batang">
+                <div class="content">
+                    <h2>Batang</h2>
+                    <p>Batang adalah sumbu tumbuhan yang mendukung semua organ lainnya, seperti daun, bunga, dan buah. Fungsinya mencakup dukungan, pengangkutan air dan nutrisi, serta penyimpanan cadangan makanan. Struktur batang mencakup epidermis, korteks, dan silinder pusat (stele) yang terdiri dari perisikel, xilem, dan floem.</p>
+                </div>
+            </section>
+
+            <section class="section ranting">
+                <img src="ranting.jpg" alt="Ranting">
+                <div class="content">
+                    <h2>Ranting</h2>
+                    <p>Ranting adalah cabang kecil yang tumbuh dari batang utama atau cabang besar yang lebih besar. Fungsinya termasuk transportasi nutrisi, fotosintesis dan mendukung pertumbuhan bunga dan buah.</p>
+                </div>
+            </section>
+        </div>
+
+        <section class="section akar">
+            <img src="akar.jpg" alt="Akar">
+            <div class="content">
+                <h2>Akar</h2>
+                <p>Akar adalah organ tumbuhan yang tumbuh di bawah tanah dan berfungsi untuk menyerap air, mineral, dan nutrisi. Akar juga menyimpan cadangan makanan dalam bentuk karbohidrat dan memperkuat batang serta mendukung tumbuhan. Struktur akar meliputi epidermis, korteks, dan silinder pusat (stele) yang terdiri dari perisikel, xilem, dan floem.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>
+            <hr>
+            <p>&copy; 2024 Company, Inc.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.menu-icon').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+    </script>
+</body>
+</html>
